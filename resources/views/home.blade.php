@@ -6,12 +6,10 @@
     {{-- BANNER --}}
     <div class="container banner">
         <h1>Selamat Datang di Perpustakaan Musang</h1>
-        <p>Kumpulan informasi buku hasil karya anak bangsa dan terupdate setiap harinya</p>
-        
+        <p>Kumpulan informasi buku dan journal hasil karya anak bangsa dan terupdate setiap harinya</p>
         <a href="{{ url('/books/manage') }}" class="btn btn-warning">Manage Books</a>
         <a href="{{ url('/contact') }}" class="btn btn-light">Contact Us</a>
     </div>
-
 
     {{-- BOOK CONTENT --}}
     <div class="container mt-4">
